@@ -23,3 +23,50 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* Solution First attempt
+div.header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+ul {
+  display:flex;
+  gap:30px;
+  align-items:center;
+  padding:0;
+}
+li a {
+  color:blue;
+}
+
+.logo {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+div.right-links {
+  padding-right:16px;
+}
+
+div.left-links {
+  padding-left:16px;
+}
+*/
+
+/*Solution Revised attempt*/
+
+.header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:8px;
+}
+
+ul {
+  display:flex;
+  padding:0;
+  margin:0;
+  gap:8px;
+}
